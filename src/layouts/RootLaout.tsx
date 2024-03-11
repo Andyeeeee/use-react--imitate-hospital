@@ -15,7 +15,7 @@ export default function RootLaout() {
         <div className="second-header">
           <ul className="d-flex flex-column">
             <li className="img"><NavLink to='./'><img src="https://www.tph.mohw.gov.tw/public/logo/392ffaa61940293843e297615eeae5a5.png" alt="" /></NavLink></li>
-            <li><h1>全人醫療&nbsp;誠信創新</h1></li>
+            <li><h1>全人醫療&nbsp;誠信創新1</h1></li>
             <li><form action="" className="d-flex"><input type="search" placeholder="經Google技術強化" /><input type="submit" name="" id="" /></form></li>
           </ul>
         </div>
