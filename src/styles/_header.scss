@@ -1,25 +1,68 @@
 header {
+  nav {
+    background-color: #efefef;
+    border-bottom: #5bc0ef 3px solid;
+    color: #b1b1b1;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+    a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      // padding: 5px 8px;
+    }
+  }
+
   .second-header {
     li:nth-child(1) {
-      background-color: aqua;
+      // background-color: aqua;
       text-align: center;
+      img {
+        max-width: 100%;
+      }
       a {
         display: block;
       }
     }
     li:nth-child(2) {
+      img {
+        // max-width: 100%;
+        // vertical-align: middle;
+        // border-style: none;
+        // overflow-clip-margin: content-box;
+        // overflow: clip;
+      }
       h1 {
         align-items: center;
-        background-color: rgb(134, 71, 71);
+        // background-color: rgb(134, 71, 71);
         color: #ec2077;
         padding: 1.5rem 0;
         margin: 0;
+        font-size: 25px;
+        font-weight: bold;
       }
     }
     li:nth-child(3) {
       margin: auto;
       #search-submit {
         background-image: url(../assets/search.png);
+      }
+    }
+  }
+
+  // ------------third-header------
+  .third-header {
+    input {
+      // background-color: white;
+    }
+  }
+  @include sm {
+    .second-header {
+      li:nth-child(2) {
+        h1 {
+          font-size: 40px;
+          // background-color: #ec2077;
+        }
       }
     }
   }
